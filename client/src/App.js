@@ -8,7 +8,7 @@ import SavedList from './Movies/SavedList';
 const App = () => {
   const [savedList, setSavedList] = useState( [] );
 
-  const addToSavedList = movie => {
+  const addToSavedList = movie => {    
     setSavedList( [...savedList, movie] );
   };
 
